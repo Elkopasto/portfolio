@@ -54,11 +54,11 @@ const Landing = ({setSelectedPage}) => {
                             hidden: { opacity: 0, x:-50},
                             visible: {opacity: 1, x: 0}
                         }}>
-                            <p className="font-inter text-6xl text-deepsea z-10 text-center text-start">
-                                Hi, I'm <span className="text-red"> Andrew</span>!
+                            <p className="font-inter text-6xl text-deepsea z-10 text-start">
+                                Hi, I&apos;m <span className="text-red"> Andrew</span>!
                             </p>
 
-                            <p className="mt-5 mb-8 text-sm font-inter text-center md: text-start text-deepsea">
+                            <p className="mt-5 mb-8 text-sm font-inter text-center md:text-start text-deepsea">
                                 Anim et sint tempor adipisicing. Anim ullamco sit eiusmod aute commodo eiusmod. Nostrud sunt qui commodo in culpa nisi enim incididunt.
                             </p>
                     </ motion.div>
