@@ -27,7 +27,7 @@ const HomeNavigation = ({ isTopOfPage:bool, selectedPage, setSelectedPage}) => {
         <nav className='z-40 w-full py-5 mb-5 px-10 md:px-20 lg:px-40'>
             <div className='flex items-center justify-between mx-auto'>
                 <ul className='flex items-center gap-5'>
-                    <a href="https://www.instagram.com/andrew_kalinenko/" target="_blank">
+                    <a href="https://www.instagram.com/andrew_kalinenko/" target="_blank" rel="noreferrer">
                         <AiFillInstagram className='text-3xl text-deepsea' href='#'></AiFillInstagram>
                     </a>
                     <h3 className='text-3xl text-deepsea font-inter'>Elkopasto</h3>

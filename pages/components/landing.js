@@ -74,15 +74,15 @@ const Landing = ({setSelectedPage}) => {
                             visible: {opacity: 1, x: 0}
                         }}>
                             <div className="text-6xl md:text-5xl flex gap-5 z-5">
-                                <a href="https://www.instagram.com/andrew_kalinenko/" target="_blank">
+                                <a href="https://www.instagram.com/andrew_kalinenko/" target="_blank" rel="noreferrer">
                                     <AiFillInstagram className="text-deepsea hover:opacity-50 transition duration-300" />
                                 </a>
 
-                                <a href="https://t.me/elkopasto" target="_blank">
+                                <a href="https://t.me/elkopasto" target="_blank" rel="noreferrer">
                                     <FaTelegramPlane className="text-deepsea hover:opacity-50 transition duration-300"/>
                                 </a>
 
-                                <a href="http://discordapp.com/users/456658729916563456" target="_blank">
+                                <a href="http://discordapp.com/users/456658729916563456" target="_blank" rel="noreferrer">
                                     <FaDiscord className="text-deepsea hover:opacity-50 transition duration-300" />
                                 </a>
                             </div>
