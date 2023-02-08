@@ -58,7 +58,7 @@ const Portfolio = ({setSelectedPage}) => {
                             <h1 className="text-beige font-inter font-bold text-4xl mt-10 text-center">
                                 <span className='text-red text-5xl'>Personal</span>
                             </h1>
-                            <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing deserunt consectetur est. Do exercitation do minim aliquip nulla adipisicing anim qui ut laboris in quis reprehenderit aute. Dolor veniam esse ad consequat irure tempor ullamco occaecat adipisicing voluptate.</p>
+                            <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing </p>
                         </div>
                         <Image src='/assets/blob_1.png' width={512} height={512} className='w-96 h-96 my-auto mx-auto lg:mx-0' />
                 </div>
