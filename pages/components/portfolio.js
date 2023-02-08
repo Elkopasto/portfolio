@@ -29,36 +29,38 @@ const Portfolio = ({setSelectedPage}) => {
             </div>
 
             { /* DESCRIPTION */ }
-            <div className='flex flex-col gap-16 lg:gap-5 my-10 mb-0 lg:mb-32'>
-                <div className='lg:flex gap-10'>
+            <div className='flex flex-col gap-10 md:gap-0 mt-5 lg:mb-32'>
+                <div className='lg:flex gap-10 justify-center'>
                         <div className='rounded-xl my-10 px-10 basis-3/5'>
                             <h1 className="text-beige font-inter font-bold text-4xl mt-10 text-center">
                                 <span className='text-red text-5xl'>Personal</span>
                             </h1>
-                            <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing deserunt consectetur est. Do exercitation do minim aliquip nulla adipisicing anim qui ut laboris in quis reprehenderit aute. Dolor veniam esse ad consequat irure tempor ullamco occaecat adipisicing voluptate.</p>
+                            <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing deserunt consectetur est. Do exercitation do minim aliquip nulla adipisicing anim qui ut laboris in quis reprehenderit aute. Dolor veniam esse ad consequat irure tempor ullamco occaecat adipisicing voluptate.</p>
                         </div>
-                        <img src='assets/blob_1.png' className='w-96 h-96 mx-auto lg:m-0' />
+                        <Image src='/assets/blob_1.png' width={512} height={512} className='w-96 h-96 mx-auto lg:mx-0 my-auto' />
                 </div>
-
-                <div className='lg:flex gap-10'>
-                        <div className='rounded-xl my-10 px-10 basis-3/5 text-center order-2'>
-                            <h1 className="text-beige font-inter font-bold text-4xl mt-10">
-                                <span className='text-red text-5xl'>Internships</span> 
-                            </h1>
-                            <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing deserunt consectetur est. Do exercitation do minim aliquip nulla adipisicing anim qui ut laboris in quis reprehenderit aute. Dolor veniam esse ad consequat irure tempor ullamco occaecat adipisicing voluptate.</p>
-                        </div>
-                        <img src='assets/blob_1.png' className='w-96 h-96 mx-auto lg:m-0' />
-                </div>
-
-                <div className='lg:flex gap-10 mb-[200px]'>
-                        <div className='rounded-xl my-10 px-10 basis-3/5'>
-                            <motion.div onViewportEnter={() => setSelectedPage("portfolio")} />
+                
+                <div className='lg:flex gap-10 justify-center'>
+                        <div className='rounded-xl my-10 px-10 basis-3/5 order-2'>
                             <h1 className="text-beige font-inter font-bold text-4xl mt-10 text-center">
-                                <span className='text-red text-5xl'>Freelance</span>
+                                <span className='text-red text-5xl'>Personal</span>
                             </h1>
-                            <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing deserunt consectetur est. Do exercitation do minim aliquip nulla adipisicing anim qui ut laboris in quis reprehenderit aute. Dolor veniam esse ad consequat irure tempor ullamco occaecat adipisicing voluptate.</p>
+                            <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing deserunt consectetur est. Do exercitation do minim aliquip nulla adipisicing anim qui ut laboris in quis reprehenderit aute. Dolor veniam esse ad consequat irure tempor ullamco occaecat adipisicing voluptate.</p>
                         </div>
-                        <img src='assets/blob_1.png' className='w-96 h-96 mx-auto lg:m-0' />
+
+                        <motion.div onViewportEnter={() => setSelectedPage("portfolio")} />
+                            <Image src='/assets/blob_1.png' width={512} height={512} className='w-96 h-96 my-auto mx-auto lg:mx-0 order-1' />
+                        <motion.div />
+                </div>
+
+                <div className='lg:flex gap-10 justify-center mb-32'>
+                        <div className='rounded-xl my-10 px-10 basis-3/5'>
+                            <h1 className="text-beige font-inter font-bold text-4xl mt-10 text-center">
+                                <span className='text-red text-5xl'>Personal</span>
+                            </h1>
+                            <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing deserunt consectetur est. Do exercitation do minim aliquip nulla adipisicing anim qui ut laboris in quis reprehenderit aute. Dolor veniam esse ad consequat irure tempor ullamco occaecat adipisicing voluptate.</p>
+                        </div>
+                        <Image src='/assets/blob_1.png' width={512} height={512} className='w-96 h-96 my-auto mx-auto lg:mx-0' />
                 </div>
             </div>
             <img src="assets/beige_waves.png" className='absolute z-0 bottom-0 left-0' />

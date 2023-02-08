@@ -20,6 +20,7 @@ module.exports = {
         deepred: '#B74846',
         beige: '#FFD5C0',
         deepsea: '#1F253D',
+        lightsea: '#363d59',
       },
       textShadow: {
         hard: '5px 5px 20px #000'
