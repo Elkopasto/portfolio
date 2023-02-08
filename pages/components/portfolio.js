@@ -37,30 +37,30 @@ const Portfolio = ({setSelectedPage}) => {
                             </h1>
                             <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing </p>
                         </div>
-                        <Image src='/assets/blob_1.png' width={512} height={512} className='w-96 h-96 mx-auto lg:mx-0 my-auto' />
+                        <Image src='/assets/blob_1.png' width={512} height={512} className='w-full h-full md:w-72 md:h-726 mx-auto lg:mx-0 my-auto' />
                 </div>
                 
                 <div className='lg:flex gap-10 justify-center'>
                         <div className='rounded-xl my-10 px-10 basis-3/5 order-2'>
                             <h1 className="text-beige font-inter font-bold text-4xl mt-10 text-center">
-                                <span className='text-red text-5xl'>Personal</span>
+                                <span className='text-red text-5xl'>Work</span>
                             </h1>
                             <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing </p>
                         </div>
 
                         <motion.div onViewportEnter={() => setSelectedPage("portfolio")} />
-                            <Image src='/assets/blob_1.png' width={512} height={512} className='w-96 h-96 my-auto mx-auto lg:mx-0 order-1' />
+                            <Image src='/assets/blob_1.png' width={512} height={512} className='w-full h-full md:w-72 md:h-72 my-auto mx-auto lg:mx-0 order-1' />
                         <motion.div />
                 </div>
 
                 <div className='lg:flex gap-10 justify-center mb-32'>
                         <div className='rounded-xl my-10 px-10 basis-3/5'>
                             <h1 className="text-beige font-inter font-bold text-4xl mt-10 text-center">
-                                <span className='text-red text-5xl'>Personal</span>
+                                <span className='text-red text-5xl'>Other</span>
                             </h1>
                             <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing </p>
                         </div>
-                        <Image src='/assets/blob_1.png' width={512} height={512} className='w-96 h-96 my-auto mx-auto lg:mx-0' />
+                        <Image src='/assets/blob_1.png' width={512} height={512} className='w-full h-full md:w-72 md:h-72 my-auto mx-auto md:mx-0' />
                 </div>
             </div>
             <img src="assets/beige_waves.png" className='absolute z-0 bottom-0 left-0' />
