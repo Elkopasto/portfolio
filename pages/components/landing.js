@@ -26,18 +26,23 @@ const Landing = ({setSelectedPage}) => {
                     visible: {opacity: 1, y: 0}
                 }}>
                     {isAboveMediumScreens ? (
-                        <div className="">
+                        <div className="relative">
+                            <img src="assets/blob.svg" className="absolute top-0 translate-y-10 opacity-70 md:opacity-0 lg:opacity-70"/>
+
                             <img
                             alt="profile"
                             src="assets/me.png"
-                            className="rounded-full" />
+                            className="rounded-full scale-100 drop-shadow-md" />
                         </div>
                     ) : (
-                        <div className="mb-5">
-                            <img
-                            alt="profile"
-                            src="assets/me.png"
-                            className="rounded-full" />
+                        <div>
+                            <img src="assets/blob.svg" className="absolute top-0 -translate-x-[40px] translate-y-5 opacity-70"/>
+                            <div className="mb-5 relative">
+                                <img
+                                alt="profile"
+                                src="assets/me.png"
+                                className="rounded-full" />
+                            </div>
                         </div>
                     )}
                 </motion.div>
@@ -59,7 +64,7 @@ const Landing = ({setSelectedPage}) => {
                             </p>
 
                             <p className="mt-5 mb-8 text-sm font-inter text-center md:text-start text-deepsea">
-                                Anim et sint tempor adipisicing. Anim ullamco sit eiusmod aute commodo eiusmod. Nostrud sunt qui commodo in culpa nisi enim incididunt.
+                                17 y.o., Gamedev, 3D & Visual art, Music, Game design, Level design... and more...
                             </p>
                     </ motion.div>
 

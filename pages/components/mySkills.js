@@ -30,9 +30,7 @@ const MySkills = ({setSelectedPage}) => {
                     <div className='text-center shadow-xl p-10 md:my-2 md:p-12 rounded-xl my-10 bg-beige'>
                         <DiPython className='mx-auto text-6xl' />
                         <h3 className='text-lg font-bold pt-2 pb-2'>Python</h3>
-                        <p className='py-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                            sed do eiusmod incididunt ut labore et dolore
-                            magna aliqua.
+                        <p className='py-2'> Since 2019 I&apos;ve been into Python. Throught 2019-2021 I succesefully completed in asd a das d as
                         </p>
                     </div>
                     <div className='text-center shadow-xl p-10 rounded-xl my-10 bg-beige'>
