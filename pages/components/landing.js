@@ -69,7 +69,7 @@ const Landing = ({setSelectedPage}) => {
                             </p>
 
                             <p className="mt-5 mb-8 text-sm font-inter text-center md:text-start text-deepsea">
-                                17 y.o., Gamedev, 3D & Visual art, Music, Game design, Level design... and more...
+                                Aliqua non laboris pariatur ullamco laborum proident et ad nisi nisi. Nostrud duis ea incididunt mollit laboris 
                             </p>
                     </ motion.div>
 

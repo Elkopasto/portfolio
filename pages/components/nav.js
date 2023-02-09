@@ -53,7 +53,7 @@ const HomeNavigation = ({ isTopOfPage, selectedPage, setSelectedPage}) => {
 
             {/* MOBILE MENU POPUP*/}
             {!isAboveSmallScreens && isMenuToggled && (
-                <div className='fixed right-0 bottom-0 h-full bg-neutral-200 w-[] z-40 shadow-2xl'>
+                <div className='fixed right-0 bottom-0 h-full bg-neutral-200 w-[60%] z-40 shadow-2xl'>
                     {/* CLOSE ICON */}
                     <div className='flex justify-end p-10 '>
                         <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
