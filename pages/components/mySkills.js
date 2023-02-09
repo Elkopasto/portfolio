@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 const MySkills = ({setSelectedPage}) => {
     return (
         <section>
-            <div id="skills" className="px-10 md:px-20 lg:px-40 py-24 bg-red">
+            <div id="skills" className="px-10 md:px-20 lg:px-40 pt-24 pb-10 bg-red">
                 <motion.div
                     initial="hidden"
                     whileInView="visible"
@@ -19,26 +19,22 @@ const MySkills = ({setSelectedPage}) => {
                 </motion.div>
 
                 <div className='lg:flex gap-10 text-deepsea'>
-                    <div className='text-center shadow-xl p-10 rounded-xl my-10 bg-beige'>
+                    <div className='text-center shadow-xl p-10 rounded-xl my-10 bg-beige w-auto md:w-1/3'>
                         <DiUnitySmall className='mx-auto text-6xl' />
                         <h3 className='text-lg font-bold pt-2 pb-2'>Unity</h3>
-                        <p className='py-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                            sed do eiusmod incididunt ut labore et dolore
-                            magna aliqua.
+                        <p className='py-2'>Ohhhh, I love developing games as much as <span className="font-bold">I love gaming</span>. From designing game mechanics to writing the code, I like doing it by my hands.
                         </p>
                     </div>
-                    <div className='text-center shadow-xl p-10 md:my-2 md:p-12 rounded-xl my-10 bg-beige'>
+                    <div className='text-center shadow-xl p-10 md:my-2 md:p-12 rounded-xl my-10 bg-beige w-auto md:w-1/3'>
                         <DiPython className='mx-auto text-6xl' />
                         <h3 className='text-lg font-bold pt-2 pb-2'>Python</h3>
-                        <p className='py-2'> Since 2019 I&apos;ve been into Python. Throught 2019-2021 I succesefully completed in asd a das d as
+                        <p className='py-2'> Since 2019 I&apos;ve been learning python and improving my skills. In 2020-2021 I graduated from <span className='font-bold'>Yandex Lyceum</span> as one of the top students. Sometimes it was challenging, yet fun to work with this language.
                         </p>
                     </div>
-                    <div className='text-center shadow-xl p-10 rounded-xl my-10 bg-beige'>
+                    <div className='text-center shadow-xl p-10 rounded-xl my-10 bg-beige w-auto md:w-1/3'>
                         <SiBlender className='mx-auto text-6xl' />
                         <h3 className='text-lg font-bold pt-2 pb-2'>Blender</h3>
-                        <p className='py-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                            sed do eiusmod incididunt ut labore et dolore
-                            magna aliqua.
+                        <p className='py-2'>As a talentless hand-painter I enjoy making 3D artwork. A <span className="font-bold"> simplistic, yet colourful</span> scenes are my go-to. 
                         </p>
                     </div>
                 </div>
@@ -54,14 +50,21 @@ const MySkills = ({setSelectedPage}) => {
                                 hidden: { opacity: 0, x:-50},
                                 visible: {opacity: 1, x: 0}
                             }}>
-                            <h1 className='text-5xl text-beige drop-shadow-md font-inter font-bold mt-0 lg:mt-5'>Lorem ipsum</h1>
+                            <h1 className='text-5xl text-beige drop-shadow-md font-inter font-bold mt-0 lg:mt-5'>Truth off my chest</h1>
                         </motion.div>
 
                         <motion.div onViewportEnter={() => setSelectedPage("skills")} />
 
-                        <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing deserunt consectetur est. Do exercitation do minim aliquip nulla adipisicing anim qui ut laboris in quis reprehenderit aute. Dolor veniam esse ad consequat irure tempor ullamco occaecat adipisicing voluptate.</p>
+                        <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5'>To this day, my favourite genre is and will be sandbox games. At the age of 7, I fell in love with “Little Big Planet 2”. The best thing about it was the level constructor. With multiple props and logic gates, it had endless imaginative possibilities. I spent hours watching constructor tutorials and creating my levels, gaming assets and props. Hands down, one of a kind gaming experience for me.
+So, as the years came through I’ve been actively practising in Unity, C#, Python, Blender, Photoshop and many other tools, to create my own worlds! I&apos;ve been participating in: </p>
+                        <ol className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 list-disc pl-5'>
+                            <li><span className="font-bold text-xl">Game conventions</span> like "White Nights" (as a visitor) and "Starcon" (as a developer).</li>
+                            <li><span className="font-bold text-xl">Game jams…</span> Actually, won a few. For example, "Banana Game Jam 2019".</li>
+                            <li><span className="font-bold text-xl">Group projects</span>. During and after "Yandex Lyceum" years I&apos;ve collaborated with my friends to work on different coding projects.</li>
+                            <li><span className="font-bold text-xl">Internships</span>. From 2020 and up until this moment I enjoyed working in "Brickworks Games" and other companies.</li>
+                        </ol>
                     </div>
-                    <div className='text-center shadow-xl p-10 rounded-xl my-10 bg-beige text-deepsea basis-2/5'>
+                    <div className='text-center shadow-xl p-10 rounded-xl my-10 md:my-32 bg-beige text-deepsea basis-2/5'>
                         <h3 className='text-3xl font-bold p-2'>Summary</h3>
                         <div className='mb-5'>
                             <p className='text-start font-bold py-2'>Python</p>

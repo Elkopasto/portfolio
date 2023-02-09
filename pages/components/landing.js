@@ -68,8 +68,8 @@ const Landing = ({setSelectedPage}) => {
                                 Hi, I&apos;m <span className="text-red"> Andrew</span>!
                             </p>
 
-                            <p className="mt-5 mb-8 text-sm font-inter text-center md:text-start text-deepsea">
-                                Aliqua non laboris pariatur ullamco laborum proident et ad nisi nisi. Nostrud duis ea incididunt mollit laboris 
+                            <p className="mt-5 mb-8 text-xl font-inter text-center md:text-start text-deepsea">
+                                Through play we have the courage to explore new digital worlds.
                             </p>
                     </ motion.div>
 
