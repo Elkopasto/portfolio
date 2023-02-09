@@ -61,7 +61,7 @@ So, as the years came through I’ve been actively practising in Unity, C#, Pyth
                             <li><span className="font-bold text-xl">Game conventions</span> like &quot;White Nights&quot; (as a visitor) and &quot;Starcon&quot; (as a developer).</li>
                             <li><span className="font-bold text-xl">Game jams…</span> Actually, won a few. For example, &quot;Banana Game Jam 2019&quot;.</li>
                             <li><span className="font-bold text-xl">Group projects</span>. During and after &quot;Yandex Lyceum&quot; years I&apos;ve collaborated with my friends to work on different coding projects.</li>
-                            <li><span className="font-bold text-xl">Internships</span>. From 2020 and up until this moment I enjoyed working in &quot;Brickworks Games&quot; and other companies.</li>
+                            <li><span className="font-bold text-xl">Internships</span>. From 2020 and up until this moment I enjoyed working in &quot;Brickworks Games&quot; and other companies. </li>
                         </ol>
                     </div>
                     <div className='text-center shadow-xl p-10 rounded-xl my-10 md:my-32 bg-beige text-deepsea basis-2/5'>
