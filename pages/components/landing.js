@@ -8,7 +8,7 @@ import Image from 'next/image';
 const Landing = ({setSelectedPage}) => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)")
     return(
-        <div className="relative">
+        <div className="relative pt-24">
             <img src="assets/red_waves_bg.png" className="absolute z-0 bottom-0 left-0 pointer-events-none"/>
 
             <section 

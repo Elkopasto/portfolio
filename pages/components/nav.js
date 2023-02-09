@@ -22,10 +22,10 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 const HomeNavigation = ({ isTopOfPage, selectedPage, setSelectedPage}) => {
     const [isMenuToggled, setIsMenuToggled] = useState(false);
     const isAboveSmallScreens = useMediaQuery("(min-width: 700px)");
-    const navbarBackground = isTopOfPage ? "bg-beige" : "bg-beige";
+    const navbarBackground = isTopOfPage ? "bg-beige" : "bg-red shadow-lg";
 
     return (
-        <nav className={`${navbarBackground} z-40 w-full py-5 mb-5 px-10 md:px-20 lg:px-40`}>
+        <nav className={`${navbarBackground} shadow-lg fixed z-40 w-full py-5 mb-5 px-10 md:px-20 lg:px-40`}>
             <div className='flex items-center justify-between mx-auto'>
                 <ul className='flex items-center gap-5'>
                     <a href="https://www.instagram.com/andrew_kalinenko/" target="_blank" rel="noreferrer">
