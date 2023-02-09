@@ -5,7 +5,17 @@ const Portfolio = ({setSelectedPage}) => {
     return(
         <section id="portfolio" className="px-10 md:px-20 lg:px-40 py-10 bg-deepsea relative">
             <h1 className="text-center text-transparent font-inter font-bold text-6xl drop-shadow-2xl">
-                <span className='bg-clip-text bg-gradient-to-b from-current via-red to-red'>My portfolio</span>
+                < motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount:0.5 }}
+                    transition={{ duration: 0.5 }}
+                    variants={{
+                        hidden: { opacity: 0, y:-30},
+                        visible: {opacity: 1, y: 0}}
+                    }>
+                    <span className='bg-clip-text bg-red'>My portfolio</span>
+                </motion.div>
             </h1>
 
             <motion.div onViewportEnter={() => setSelectedPage("portfolio")} />
@@ -37,7 +47,17 @@ const Portfolio = ({setSelectedPage}) => {
                             </h1>
                             <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing </p>
                         </div>
-                        <Image src='/assets/blob_1.png' width={512} height={512} className='w-full h-full md:w-72 md:h-726 mx-auto lg:mx-0 my-auto' />
+                        < motion.div
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount:0.5 }}
+                        transition={{ duration: 0.5 }}
+                        variants={{
+                            hidden: { opacity: 0, scale:0.5},
+                            visible: {opacity: 1, scale:1}}
+                        }>
+                            <Image src='/assets/blob_1.png' width={512} height={512} className='w-full h-full md:w-72 md:h-726 mx-auto lg:mx-0 my-auto' />
+                        </motion.div>
                 </div>
                 
                 <div className='lg:flex gap-10 justify-center'>
@@ -47,10 +67,18 @@ const Portfolio = ({setSelectedPage}) => {
                             </h1>
                             <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing </p>
                         </div>
-
-                        <motion.div onViewportEnter={() => setSelectedPage("portfolio")} />
-                            <Image src='/assets/blob_1.png' width={512} height={512} className='w-full h-full md:w-72 md:h-72 my-auto mx-auto lg:mx-0 order-1' />
-                        <motion.div />
+                        < motion.div
+                        onViewportEnter={() => setSelectedPage("portfolio")}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount:0.5 }}
+                        transition={{ duration: 0.5 }}
+                        variants={{
+                            hidden: { opacity: 0, scale:0.5},
+                            visible: {opacity: 1, scale:1}}
+                        }>
+                            <Image src='/assets/blob_1.png' width={512} height={512} className='w-full h-full md:w-72 md:h-726 mx-auto lg:mx-0 my-auto' />
+                        </motion.div>
                 </div>
 
                 <div className='lg:flex gap-10 justify-center mb-32'>
@@ -60,7 +88,17 @@ const Portfolio = ({setSelectedPage}) => {
                             </h1>
                             <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>Voluptate commodo cillum magna fugiat sint minim aliquip. Laboris dolor excepteur aute nostrud aliquip tempor sunt. Officia voluptate exercitation cupidatat ex ipsum ex aliqua tempor et proident adipisicing </p>
                         </div>
-                        <Image src='/assets/blob_1.png' width={512} height={512} className='w-full h-full md:w-72 md:h-72 my-auto mx-auto md:mx-0' />
+                        < motion.div
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount:0.5 }}
+                        transition={{ duration: 0.5 }}
+                        variants={{
+                            hidden: { opacity: 0, scale:0.5},
+                            visible: {opacity: 1, scale:1}}
+                        }>
+                            <Image src='/assets/blob_1.png' width={512} height={512} className='w-full h-full md:w-72 md:h-726 mx-auto lg:mx-0 my-auto' />
+                        </motion.div>
                 </div>
             </div>
             <img src="assets/beige_waves.png" className='absolute z-0 bottom-0 left-0' />

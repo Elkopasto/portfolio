@@ -25,7 +25,7 @@ const HomeNavigation = ({ isTopOfPage, selectedPage, setSelectedPage}) => {
     const navbarBackground = isTopOfPage ? "bg-beige" : "bg-red shadow-lg";
 
     return (
-        <nav className={`${navbarBackground} shadow-lg fixed z-40 w-full py-5 mb-5 px-10 md:px-20 lg:px-40`}>
+        <nav className={`${navbarBackground} fixed z-40 w-full top-0 py-4 px-10 md:px-20 lg:px-40`}>
             <div className='flex items-center justify-between mx-auto'>
                 <ul className='flex items-center gap-5'>
                     <a href="https://www.instagram.com/andrew_kalinenko/" target="_blank" rel="noreferrer">

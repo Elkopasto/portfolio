@@ -32,7 +32,7 @@ export default function Home() {
   });
 
   return (
-    <div className='app bg-beige'>
+    <div className='app bg-beige overscroll-none'>
       <Head>
         <title>Elkopasto</title>
         <meta name="description" content="Elkopasto" />
@@ -66,7 +66,6 @@ export default function Home() {
             ></motion.div>
             {/* <Landing setSelectedPage={setSelectedPage} /> */}
           </div>
-
         </section>
 
         <Landing setSelectedPage={setSelectedPage} />
@@ -76,7 +75,6 @@ export default function Home() {
         <Portfolio setSelectedPage={setSelectedPage} />
 
         <Things setSelectedPage={setSelectedPage} />
-
       </main>
     </div>
   )
