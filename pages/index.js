@@ -35,7 +35,7 @@ export default function Home() {
     <div className='app bg-beige'>
       <Head>
         <title>Elkopasto</title>
-        <meta name="description" content="Elkopasto" />
+        <meta name="description" content="Elkopasto's portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="/favicon.ico" />
 
