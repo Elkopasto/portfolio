@@ -4,7 +4,11 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body className='overscroll-none overflow-x-hidden bg-beige'>
+      <body style={{
+        overflowX: 'hidden',
+        overscrollXBehavior: 'none'}}
+        className='bg-beige'>
+          
         <Main />
         <NextScript />
       </body>
