@@ -45,7 +45,7 @@ const Portfolio = ({setSelectedPage}) => {
                             <h1 className="text-beige font-inter font-bold text-4xl mt-10 text-center">
                                 <span className='text-red text-5xl'>Personal</span>
                             </h1>
-                            <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>Hundreds of hours have been spent on gamedev and artwork as you can see on theese pictures. My biggest game demo was “Gnossienne”, which was a small one, but also a huge creative blast for me. Today I'm more focused on my visuals, so I practice Blender from time to time.</p>
+                            <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>Hundreds of hours have been spent on gamedev and artwork as you can see on theese pictures. My biggest game demo was &quot;Gnossienne&quot;, which was a small one, but also a huge creative blast for me. Today I&apos;m more focused on my visuals, so I practice Blender from time to time.</p>
                         </div>
                         < motion.div
                         initial="hidden"
