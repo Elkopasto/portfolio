@@ -1,5 +1,8 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { AiFillInstagram } from 'react-icons/ai'
+import { BsFillLaptopFill } from 'react-icons/bs'
+import { BiCoffeeTogo} from 'react-icons/bi'
 
 const Portfolio = ({setSelectedPage}) => {
     return(
@@ -56,7 +59,10 @@ const Portfolio = ({setSelectedPage}) => {
                             hidden: { opacity: 0, scale:0.5},
                             visible: {opacity: 1, scale:1}}
                         }>
-                            <Image src='/assets/blob_1.png' width={512} height={512} className='w-full h-full md:w-72 md:h-726 mx-auto lg:mx-0 my-auto' />
+                        <div className='flex justify-center'>
+                            <AiFillInstagram className='absolute md:w-48 md:h-48 translate-y-16 h-[5%] w-auto text-beige rotate-12' width={512} height={512}/>
+                        </div>
+                            <Image src='/assets/blob.svg' width={512} height={512} className='w-full h-full md:w-72 md:h-726 mx-auto lg:mx-0 my-auto' />
                         </motion.div>
                 </div>
                 
@@ -77,7 +83,10 @@ const Portfolio = ({setSelectedPage}) => {
                             hidden: { opacity: 0, scale:0.5},
                             visible: {opacity: 1, scale:1}}
                         }>
-                            <Image src='/assets/blob_1.png' width={512} height={512} className='w-full h-full md:w-72 md:h-726 mx-auto lg:mx-0 my-auto' />
+                        <div className='flex justify-center'>
+                            <BsFillLaptopFill className='absolute md:w-48 md:h-48 translate-y-12 h-[5%] w-auto text-beige -rotate-12' width={512} height={512}/>
+                        </div>
+                            <Image src='/assets/blob.svg' width={512} height={512} className='w-full h-full md:w-72 md:h-726 mx-auto lg:mx-0 my-auto' />
                         </motion.div>
                 </div>
 
@@ -97,7 +106,10 @@ const Portfolio = ({setSelectedPage}) => {
                             hidden: { opacity: 0, scale:0.5},
                             visible: {opacity: 1, scale:1}}
                         }>
-                            <Image src='/assets/blob_1.png' width={512} height={512} className='w-full h-full md:w-72 md:h-726 mx-auto lg:mx-0 my-auto' />
+                        <div className='flex justify-center'>
+                            <BiCoffeeTogo className='absolute md:w-48 md:h-48 translate-y-16 h-[5%] w-auto text-beige rotate-6' width={512} height={512}/>
+                        </div>
+                            <Image src='/assets/blob.svg' width={512} height={512} className='w-full h-full md:w-72 md:h-76 mx-auto lg:mx-0 my-auto' />
                         </motion.div>
                 </div>
             </div>
