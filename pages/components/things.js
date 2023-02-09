@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Things = ({setSelectedPage}) => {
     return (
-        <section id="about" className="px-10 md:px-20 lg:px-40 py-24 lg:pb-0 text-deepsea relative overflow-auto">
+        <section id="about" className="px-10 md:px-20 lg:px-40 pt-24 lg:pb-0 text-deepsea relative overflow-auto">
             { /* USING OVERFLOW-AUTO ON THE WHOLE ELEMNT INSTEAD OF FIXING THE CSS GRID IS A HUUUUGE КОСТЫЛЬ */ }
             <motion.div
                 initial="hidden"
@@ -57,7 +57,7 @@ const Things = ({setSelectedPage}) => {
                     </div>
                 </div>
 
-                <div className='pb-5 flex justify-center gap-1'>
+                <div className='mb-5 flex justify-center gap-1'>
                     <div className='rotate-180'><p>Ⓒ</p></div>
                     <p>Copyleft</p>
                 </div>
