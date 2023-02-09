@@ -56,7 +56,7 @@ const MySkills = ({setSelectedPage}) => {
                         <motion.div onViewportEnter={() => setSelectedPage("skills")} />
 
                         <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5'>To this day, my favourite genre is and will be sandbox games. At the age of 7, I fell in love with &quot;Little Big Planet 2&quot;. The best thing about it was the level constructor. With multiple props and logic gates, it had endless imaginative possibilities. I spent hours watching constructor tutorials and creating my levels, gaming assets and props. Hands down, one of a kind gaming experience for me.
-So, as the years came through I’ve been actively practising in Unity, C#, Python, Blender, Photoshop and many other tools, to create my own worlds! I&apos;ve been participating in: </p>
+<br/><br/>So, as the years came through I&apos;ve been actively practising in Unity, C#, Python, Blender, Photoshop and many other tools, to create my own worlds! I&apos;ve been participating in: </p>
                         <ol className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 list-disc pl-5'>
                             <li><span className="font-bold text-xl">Game conventions</span> like &quot;White Nights&quot; (as a visitor) and &quot;Starcon&quot; (as a developer).</li>
                             <li><span className="font-bold text-xl">Game jams…</span> Actually, won a few. For example, &quot;Banana Game Jam 2019&quot;.</li>

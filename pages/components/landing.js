@@ -9,7 +9,7 @@ import Blob from './blob.js'
 const Landing = ({setSelectedPage}) => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)")
     return(
-        <div className="relative pt-24">
+        <div className="relative pt-16">
             <img src="assets/red_waves_bg.png" className="absolute z-0 bottom-0 left-0 pointer-events-none"/>
             <section 
             id="home"
