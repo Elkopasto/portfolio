@@ -59,7 +59,7 @@ const MySkills = ({setSelectedPage}) => {
 So, as the years came through I’ve been actively practising in Unity, C#, Python, Blender, Photoshop and many other tools, to create my own worlds! I&apos;ve been participating in: </p>
                         <ol className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 list-disc pl-5'>
                             <li><span className="font-bold text-xl">Game conventions</span> like &quot;White Nights&quot; (as a visitor) and &quot;Starcon&quot; (as a developer).</li>
-                            <li><span className="font-bold text-xl">Game jams…</span> Actually, won a few. For example, "Banana Game Jam 2019".</li>
+                            <li><span className="font-bold text-xl">Game jams…</span> Actually, won a few. For example, &quot;Banana Game Jam 2019&quot;.</li>
                             <li><span className="font-bold text-xl">Group projects</span>. During and after &quot;Yandex Lyceum&quot; years I&apos;ve collaborated with my friends to work on different coding projects.</li>
                             <li><span className="font-bold text-xl">Internships</span>. From 2020 and up until this moment I enjoyed working in &quot;Brickworks Games&quot; and other companies.</li>
                         </ol>
