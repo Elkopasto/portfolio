@@ -3,7 +3,8 @@ import Image from 'next/image'
 
 const Things = ({setSelectedPage}) => {
     return (
-        <section id="about" className="px-10 md:px-20 lg:px-40 py-24 text-deepsea relative">
+        <section id="about" className="px-10 md:px-20 lg:px-40 py-24 text-deepsea relative overflow-auto">
+            { /* USING OVERFLOW-AUTO ON THE WHOLE ELEMNT INSTEAD OF FIXING THE CSS GRID IS A HUUUUGE КОСТЫЛЬ */ }
             <h2 className="text-6xl font-inter text-deepsea drop-shadow-md">Other things about me</h2>
             <motion.div onViewportEnter={() => setSelectedPage("about")} />
             <div className='lg:grid grid-cols-3 gap-10 mt-10 mb-16 lg:mb-48 text-beige relative'>
