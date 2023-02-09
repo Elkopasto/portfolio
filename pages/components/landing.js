@@ -4,13 +4,13 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaDiscord, FaTelegramPlane } from "react-icons/fa"
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Image from 'next/image';
+import Blob from './blob.js'
 
 const Landing = ({setSelectedPage}) => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)")
     return(
         <div className="relative pt-24">
             <img src="assets/red_waves_bg.png" className="absolute z-0 bottom-0 left-0 pointer-events-none"/>
-
             <section 
             id="home"
             className="relative md:flex md:justify-between md:items-center md:h-full gap-16 px-10 md:px-20 lg:px-40 z-5">
@@ -27,7 +27,9 @@ const Landing = ({setSelectedPage}) => {
                 }}>
                     {isAboveMediumScreens ? (
                         <div className="relative">
-                            <img src="assets/blob.svg" className="absolute top-0 translate-y-10 opacity-70 md:opacity-0 lg:opacity-70"/>
+                            <div className="flex justify-center">
+                                <Blob className="opacity-70"/>
+                            </div>
 
                             <img
                             alt="profile"
@@ -35,8 +37,11 @@ const Landing = ({setSelectedPage}) => {
                             className="rounded-full scale-100 drop-shadow-md" />
                         </div>
                     ) : (
-                        <div>
-                            <img src="assets/blob.svg" className="absolute top-0 -translate-x-[40px] translate-y-5 opacity-70"/>
+                        <div className="relative">
+                            <div className="flex justify-center">
+                                <Blob className="opacity-70"/>
+                            </div>
+
                             <div className="mb-5 relative">
                                 <img
                                 alt="profile"
