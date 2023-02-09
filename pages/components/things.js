@@ -57,10 +57,11 @@ const Things = ({setSelectedPage}) => {
                     </div>
                 </div>
 
-                <div className='mb-5 flex justify-center gap-1'>
+                <div className='flex justify-center gap-1'>
                     <div className='rotate-180'><p>Ⓒ</p></div>
-                    <p>Copyleft</p>
+                    <p className='font-bold'>Copyleft</p>
                 </div>
+                <p className='text-center mb-5'>Made all by myself with NextJS and Tailwind!</p>
         </section>
     )
 };
