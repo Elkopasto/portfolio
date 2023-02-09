@@ -21,11 +21,11 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 
 const HomeNavigation = ({ isTopOfPage, selectedPage, setSelectedPage}) => {
     const [isMenuToggled, setIsMenuToggled] = useState(false);
-    const isAboveSmallScreens = useMediaQuery("(min-width: 700px)");
+    const isAboveSmallScreens = useMediaQuery("(min-width: 600px)");
     const navbarBackground = isTopOfPage ? "bg-beige" : "bg-red shadow-lg";
 
     return (
-        <nav className={`${navbarBackground} fixed z-40 w-full top-0 py-4 px-10 md:px-20 lg:px-40`}>
+        <nav className={`${navbarBackground} fixed z-40 w-[100%] top-0 py-4 px-10 md:px-20 lg:px-40`}>
             <div className='flex items-center justify-between mx-auto'>
                 <ul className='flex items-center gap-5'>
                     <a href="https://www.instagram.com/andrew_kalinenko/" target="_blank" rel="noreferrer">
@@ -53,9 +53,9 @@ const HomeNavigation = ({ isTopOfPage, selectedPage, setSelectedPage}) => {
 
             {/* MOBILE MENU POPUP*/}
             {!isAboveSmallScreens && isMenuToggled && (
-                <div className='fixed right-0 bottom-0 h-full bg-neutral-200 w-[300px] z-40 shadow-2xl'>
+                <div className='fixed right-0 bottom-0 h-full bg-neutral-200 w-[] z-40 shadow-2xl'>
                     {/* CLOSE ICON */}
-                    <div className='flex justify-end p-12'>
+                    <div className='flex justify-end p-10 '>
                         <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
                              <AiOutlineClose />
                         </button>

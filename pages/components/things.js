@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Things = ({setSelectedPage}) => {
     return (
-        <section id="about" className="px-10 md:px-20 lg:px-40 py-10 text-deepsea relative">
+        <section id="about" className="px-10 md:px-20 lg:px-40 py-24 text-deepsea relative">
             <h2 className="text-6xl font-inter text-deepsea drop-shadow-md">Other things about me</h2>
             <motion.div onViewportEnter={() => setSelectedPage("about")} />
             <div className='lg:grid grid-cols-3 gap-10 mt-10 mb-16 lg:mb-48 text-beige relative'>
@@ -51,8 +51,6 @@ const Things = ({setSelectedPage}) => {
                         </p>
                     </div>
                 </div>
-            
-            <img src="assets/red_waves.png" className='absolute z-0 bottom-0 left-0' />
         </section>
     )
 };

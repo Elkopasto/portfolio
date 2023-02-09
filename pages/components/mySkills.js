@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 const MySkills = ({setSelectedPage}) => {
     return (
         <section>
-            <div id="skills" className="px-10 md:px-20 lg:px-40 py-10 bg-red">
+            <div id="skills" className="px-10 md:px-20 lg:px-40 py-24 bg-red">
                 <motion.div
                     initial="hidden"
                     whileInView="visible"

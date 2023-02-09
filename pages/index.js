@@ -33,7 +33,7 @@ export default function Home() {
 
   return (
     <div className='app bg-beige'>
-      <Head className='overflow-x-hidde overscroll-x-none'>
+      <Head>
         <title>Elkopasto</title>
         <meta name="description" content="Elkopasto" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

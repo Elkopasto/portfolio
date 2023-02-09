@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const Portfolio = ({setSelectedPage}) => {
     return(
-        <section id="portfolio" className="px-10 md:px-20 lg:px-40 py-10 bg-deepsea relative">
+        <section id="portfolio" className="px-10 md:px-20 lg:px-40 py-24 bg-deepsea relative">
             <h1 className="text-center text-transparent font-inter font-bold text-6xl drop-shadow-2xl">
                 < motion.div
                     initial="hidden"
