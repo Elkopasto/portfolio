@@ -32,7 +32,7 @@ export default function Home() {
   });
 
   return (
-    <div className='app bg-beige overscroll-none'>
+    <div className='app bg-beige'>
       <Head>
         <title>Elkopasto</title>
         <meta name="description" content="Elkopasto" />
