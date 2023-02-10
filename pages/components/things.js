@@ -31,7 +31,7 @@ const Things = ({setSelectedPage}) => {
                     </motion.div>
                     <div className='text-center shadow-xl p-10 rounded-xl my-10 lg:my-0 bg-gradient-to-t from-deepsea to-lightsea z-10'>
                         <h3 className='text-2xl font-bold pt-2 pb-2 text-red'>Music</h3>
-                        <p className='py-2 text-xl'>Having an elecgtric guitar is a big joy in the family. I use <span className='font-bold'>FL studio</span> and my handy  <span className='font-bold'>Squier</span> to create soundscapes.
+                        <p className='py-2 text-xl'>Having an electric guitar is a big joy in the family. I use <span className='font-bold'>FL studio</span> and my handy <span className='font-bold'>Squier</span> to create soundscapes.
                         </p>
                     </div>
                     < motion.div
@@ -47,7 +47,7 @@ const Things = ({setSelectedPage}) => {
                     </motion.div>
                     <div className='text-center shadow-xl p-10 sm:p-10 rounded-xl bg-gradient-to-tl from-deepsea to-lightsea col-span-2 z-0'>
                         <h3 className='text-2xl font-bold pt-2 pb-2 text-red'>Yandex lyceum</h3>
-                        <p className='py-2 text-xl'>This course gave me a solid base to get into any other programming lagnuage and framework. <span className='font-bold'>Yandex</span> is still one of my favourite IT companies and I geniunely admire them. Graduating from their cousre as a top student was more than delightful (certificate by request).
+                        <p className='py-2 text-xl'>This course gave me a solid base to get into any other programming lagnuage and framework. <span className='font-bold'>Yandex</span> is still one of my favourite IT companies and I geniunely admire them. Graduating from their cousre as a top student was priceless (certificate by request).
                         </p>
                     </div>
                     <div className='text-center shadow-xl p-10 rounded-xl my-10 lg:my-0 bg-gradient-to-tr from-deepsea to-lightsea z-10'>
