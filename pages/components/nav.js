@@ -31,7 +31,11 @@ const HomeNavigation = ({ isTopOfPage, selectedPage, setSelectedPage}) => {
                     <a href="https://www.instagram.com/andrew_kalinenko/" target="_blank" rel="noreferrer">
                         <AiFillInstagram className='text-3xl text-deepsea' href='#'></AiFillInstagram>
                     </a>
-                    <h3 className='text-3xl text-deepsea font-inter'>Elkopasto</h3>
+                    <AnchorLink
+                        href="#home"
+                       onClick={() => setSelectedPage("home")}>
+                        <h3 className='text-3xl text-deepsea font-inter'>Elkopasto</h3>
+                    </AnchorLink>
                 </ul>
 
             {/* DESKTOP NAV*/}

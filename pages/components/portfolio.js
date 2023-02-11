@@ -71,7 +71,7 @@ const Portfolio = ({setSelectedPage}) => {
                             <h1 className="text-beige font-inter font-bold text-4xl mt-10 text-center">
                                 <span className='text-red text-5xl'>Internships</span>
                             </h1>
-                            <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>From 2019 I had internships from time to time. My most ambiguous internship was at the <a href="https://brickworksgames.com/" className="underline" target="_blank" rel="noreferrer">Brickworks Games</a> as a game and level designer. Some of my works can be seen in the published projects! </p>
+                            <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>From 2019 I had internships from time to time. My most ambiguous internship was at the <a href="https://brickworksgames.com/" className="underline hover:text-red" target="_blank" rel="noreferrer">Brickworks Games</a> as a game and level designer. Some of my works can be seen in the published projects! </p>
                         </div>
                         < motion.div
                         onViewportEnter={() => setSelectedPage("portfolio")}
@@ -95,7 +95,7 @@ const Portfolio = ({setSelectedPage}) => {
                             <h1 className="text-beige font-inter font-bold text-4xl mt-10 text-center">
                                 <span className='text-red text-5xl'>Freelance</span>
                             </h1>
-                            <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>I&apos;m lucky to have offers in freelance. From every project I work on, I try to get as much experience as I can. Some of my previous freelance wokrs are <a href="https://store.steampowered.com/app/566430/Ultimus_bellum/" className='underline' target="_blank" rel="noreferrer">Ultimus Bellum</a> and a mod of python library <a href="https://github.com/Elkopasto/Fiber-Evolved" className='underline' target="_blank" rel="noreferrer">Pyfiberamp</a>.</p>
+                            <p className='font-inter drop-shadow-md text-xl font-medium text-beige mt-5 text-center md:text-start lg:text-center'>I&apos;m lucky to have offers in freelance. From every project I work on, I try to get as much experience as I can. Some of my previous freelance wokrs are <a href="https://store.steampowered.com/app/566430/Ultimus_bellum/" className='underline hover:text-red' target="_blank" rel="noreferrer">Ultimus Bellum</a> and a mod of python library <a href="https://github.com/Elkopasto/Fiber-Evolved" className='underline hover:text-red' target="_blank" rel="noreferrer">Pyfiberamp</a>.</p>
                         </div>
                         < motion.div
                         initial="hidden"
