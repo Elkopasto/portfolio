@@ -9,10 +9,9 @@ import Blob from './blob.js'
 const Landing = ({setSelectedPage}) => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)")
     return(
-        <div className="relative pt-16">
+        <div id="home" className="relative pt-16">
             <img src="assets/red_waves_bg.png" className="absolute z-0 bottom-0 left-0 pointer-events-none"/>
             <section 
-            id="home"
             className="relative md:flex md:justify-between md:items-center md:h-full gap-16 px-10 md:px-20 lg:px-40 z-5">
                 {/* IMAGE SECTION */}
                 <motion.div 
